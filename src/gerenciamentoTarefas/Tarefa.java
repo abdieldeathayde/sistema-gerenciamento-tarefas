@@ -60,9 +60,8 @@ public class Tarefa {
 //		return tarefa3;				
 //	}
 
-//	@Override
-//	public String toString() {
-//		return "Tarefa [nome=" + nome + ", descricao=" + descricao + ", data_inicio=" + data_inicio
-//				+ "\n"  + ", data_conclusao=" + data_conclusao + "]";
-//	}
+	@Override
+	public String toString() {
+		return "Tarefa [nome=" + nome + ", descricao=" + descricao + "]";
+	}
 }
